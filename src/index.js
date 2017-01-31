@@ -7,3 +7,8 @@ ReactDOM.render(
   <App />,
   document.getElementById('root')
 );
+
+ReactDOM.render(
+  <h2>Hello</h2>,
+  document.getElementById('test')
+);
