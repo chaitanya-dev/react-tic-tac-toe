@@ -1,13 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Clock extends Component {
-  render() {
+export default function Clock(props) {
     return (
       <div>
-        <h2>{new Date().toLocaleTimeString()}</h2>
+        <h2>{props.date.toLocaleTimeString()}</h2>
       </div>
     );
-  }
 }
-
-export default Clock;
