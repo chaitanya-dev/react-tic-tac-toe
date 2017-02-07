@@ -16,7 +16,7 @@ ReactDOM.render(
 
 function tick(){
   ReactDOM.render(
-    <Clock date={new Date()}/>,
+    <Clock />,
     document.getElementById('clock')
   );
 }
