@@ -14,11 +14,7 @@ ReactDOM.render(
   document.getElementById('test')
 );
 
-function tick(){
-  ReactDOM.render(
-    <Clock />,
-    document.getElementById('clock')
-  );
-}
-
-setInterval(tick, 1000);
+ReactDOM.render(
+  <Clock />,
+  document.getElementById('clock')
+);
